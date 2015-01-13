@@ -1,0 +1,93 @@
+/*
+ * Layout
+ */
+
+//base
+$font-size-base:            16px !default;
+
+
+// breakpoints 
+$break-lg:                  1024px !default;
+$break-md:                  992px !default;
+$break-sm:                  768px !default;
+$break-xs:                  320px !default;
+
+
+$device-media-expressions: (
+  'lg' '(max-width: 1024px)',
+  'md' '(max-width: 992px)',
+  'sm' '(max-width: 768px)',
+  'xs' '(max-width: 320px)'
+)!default;
+
+$other-media-expressions: (
+  'retina'             '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192ddpx)'
+)!default;
+
+//large images are set as the default, and retina based upon pixel-ratio
+$image-breakpoints: (
+  'medium': 768px,
+  'small': 320px
+)!default;
+
+$media-expressions: if($other-media-expressions, append($device-media-expressions, $other-media-expressions), $device-media-expressions);
+
+//layout
+$xxs:                       rem(3) !default;
+$xs:                        rem(5) !default;
+$sm:                        rem(10) !default;
+$md:                        rem(20) !default;
+$lg:                        rem(40) !default;
+$xl:                        rem(80) !default;
+$xxl:                       rem(120) !default;
+
+
+
+
+
+
+/*
+ * Colours
+ */
+
+//column-rule-style;
+$color-bg-green:            #01b69b;
+$color-bg-blue:             #00aced;
+$color-bg-brown:            #664628;
+$color-bg-red:              #ff4a00;
+$color-bg-salmon:           #ff6666;
+$color-bg-orange:           #ff5510;
+$color-bg-pink:             #eb008a;
+$color-bg-yellow:           #ffce35;
+$color-bg-green-dark:       #01b69b;
+$color-bg-green-light:      #8ac53e;
+$color-bg-blue-dark:        #24408e;
+$color-bg-gray:             #c5c2b7;
+$color-bg-gray-dark:        #333333;
+$color-bg-gray-brown:       #d8d4c7;
+$color-bg-gray-light:       #f6f5f1;
+$color-bg-gray-blue:        #333c4c;
+
+// Semantic colours
+$color-bg-primary:          $color-bg-green;
+$color-bg-secondary:        $color-bg-blue;
+$color-bg-alert:            $color-bg-red;
+$color-bg-neutral:          $color-bg-gray-brown;
+
+// Text colours
+$color-text:                #333333;
+$color-text-light:          #999999;
+$color-text-disabled:       #666666;
+$color-text-link:           $color-bg-green;
+$color-text-menu:           #616266;
+
+// Semantic text colours
+$color-text-primary:        $color-bg-primary;
+$color-text-secondary:      $color-bg-secondary;
+$color-text-alert:          $color-bg-alert;
+
+// Branc colours
+$color-facebook:            #3b5998;
+$color-twitter:             #55acee;
+$color-google:              #dd4b39;
+
