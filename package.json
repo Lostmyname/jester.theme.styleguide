@@ -1,6 +1,6 @@
 {
   "name": "lmn.jester.theme.styleguide",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lost My Name theme for Jester",
   "author": "barneyfoxuk",
   "main": "src/scss/_jester.theme.styleguide.scss",
