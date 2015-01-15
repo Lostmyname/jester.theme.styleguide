@@ -1,0 +1,33 @@
+.nav {
+  height: 100%;
+  z-index: 1;
+  background-color: $nero;
+
+  .nav-heading {
+    color: white;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    display: block;
+    margin: 0 0 1px 2px;
+
+    > a {
+      display: block;
+      background: $color-neutral;
+      color: $nero;
+      padding: 10px;
+      border-bottom-right-radius: 8px;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: none;
+        background: white;
+      }
+    }
+  }
+
+}

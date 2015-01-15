@@ -1,0 +1,18 @@
+.demo-grid {
+  .row {
+    margin-bottom: 5px;
+  }
+
+  .col {
+    background-color: $color-neutral;
+  
+    > div {
+      background-color: $color-primary;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
