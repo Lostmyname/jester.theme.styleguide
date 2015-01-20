@@ -2,10 +2,19 @@
  * Colours
  */
 
-$persian-green:             #01b69b;
-$gulf-stream:               #77B2A8;
-$narvik:                    #f6f5f1;
-$white-pointer:             #d8d4c7;
-$cloud:                     #c5c2b7;
-$night-rider:               #333333;
-$nero:                      #222222;
+$palette: (
+  'primary':                '#01b69b',
+  'secondary':              '#00aced',
+  'alert':                  '#ff4a00',
+  'neutral':                '#d8d4c7',
+  
+  'persian-green':          '#01b69b',
+  'gulf-stream':            '#77B2A8',
+  'narvik':                 '#f6f5f1',
+  'white-pointer':          '#d8d4c7',
+  'cloud':                  '#c5c2b7',
+  'night-rider':            '#333333',
+  'nero':                   '#222222',
+  'chocolate':              '#e87117',
+  'tequila':                '#F7CEAE'
+);

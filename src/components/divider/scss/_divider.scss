@@ -1,9 +1,9 @@
 .divider-thin {
-  background-color: grey;
+  background-color: #{map-get($palette, 'cloud')};
   background-image: none;
 }
   
 .divider-thick {
-  background-color: grey;
+  background-color: #{map-get($palette, 'cloud')};
   background-image: none;
 }
